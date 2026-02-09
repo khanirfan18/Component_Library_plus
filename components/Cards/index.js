@@ -1,6 +1,6 @@
-import Card from "./Card"
-import CardTitle from "./CardTitle"
-import CardBody from "./CardBody"
+import Card from "./Card.jsx"
+import CardTitle from "./CardTitle.jsx"
+import CardBody from "./CardBody.jsx"
 
 
 Card.Body = CardBody
