@@ -112,28 +112,6 @@ function App() {
       <br />
       <br />
 
-      {/* 
-        TESTIMONIAL COMPONENT
-        Use case:
-        - User reviews
-        - Quotes
-        - Social proof sections
-        Pattern used:
-        - Compound components (Body, Foot)
-        - Allows flexible composition
-      */}
-      <Testimonial src="/Image/image.jpg">
-        <Testimonial.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Sed urna nulla vitae laoreet augue.
-        </Testimonial.Body>
-
-        {/* Footer info: author + role */}
-        <Testimonial.Foot
-          name="Tommy v"
-          job="vice swe"
-        />
-      </Testimonial>
 
     </div>
   );
