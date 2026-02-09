@@ -1,7 +1,7 @@
-import Testimonial from "./Testimonial"
-import TestimonialBody from "./TestimonialBody"
-import TestimonialFoot from "./TestimonialFoot"
-import TestimonialImage from "./TestimonialImage"
+import Testimonial from "./Testimonial.jsx"
+import TestimonialBody from "./TestimonialBody.jsx"
+import TestimonialFoot from "./TestimonialFoot.jsx"
+import TestimonialImage from "./TestimonialImage.jsx"
 
 Testimonial.Body = TestimonialBody
 Testimonial.Image = TestimonialImage

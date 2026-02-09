@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Testimonial from "./components/Testimonials/index";
 import Banner from "./components/Banners/index";
 import Card from "./components/Cards/index";
-import Badge from "/components/Badges/Badge";
+import Badge from "./components/Badges/Badge.jsx";
 
 import { FiUploadCloud } from "react-icons/fi";
 
@@ -103,7 +103,10 @@ function App() {
       <Card
         icon={<FiUploadCloud />}
         color="green"
-      />
+      >
+        <Card.Title>Easy Deployment</Card.Title>
+        <Card.Body>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card.Body>
+      </Card>
 
       <br />
       <br />
