@@ -13,7 +13,7 @@ function App() {
     <div className="container">
 
 
-      <h1>Component goes here</h1>
+      <h1>Compnent goes here</h1>
 
       <br />
       <br />
